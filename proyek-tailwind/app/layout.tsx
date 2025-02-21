@@ -3,7 +3,7 @@ import "./globals.css"; // Pastikan file ini ada
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: "Next.js Responsive Navbar",
+  title: "Belajar Next-js Tailwind",
   description: "Navbar with Tailwind CSS in Next.js",
 };
 
