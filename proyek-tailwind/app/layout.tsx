@@ -3,7 +3,10 @@ import "./globals.css"; // Pastikan file ini ada
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: "Belajar Next-js Tailwind",
+  title: "belajar react",
+  icons: {
+    icon: "/favicon.ico", // Bisa juga PNG atau SVG
+  },
   description: "Navbar with Tailwind CSS in Next.js",
 };
 

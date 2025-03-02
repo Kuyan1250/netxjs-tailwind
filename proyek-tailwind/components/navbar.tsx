@@ -25,7 +25,7 @@ export default function Navbar() {
             const link = item.toLowerCase() === "home" ? "/" : `/${item.toLowerCase()}`;
             return (
               <li key={item}>
-                <Link href={link} className={`text-white hover:text-gray-200 ${pathname === link ? "border-b-2 border-white" : ""}`}>
+                <Link href={link} className={`text-white text-lg hover:text-gray-200 ${pathname === link ? "border-b-2 border-white" : ""}`}>
                   {item}
                 </Link>
               </li>
